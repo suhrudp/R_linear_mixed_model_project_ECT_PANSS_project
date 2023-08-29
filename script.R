@@ -1,5 +1,5 @@
 # set working directory
-setwd("C:/Users/SURHUD/Desktop/Desktop/Stats/ReQuir Stats/Sagar Bhalke Analysis + Results")
+setwd("your/working/directory")
 
 # set a seed for the random number generator
 set.seed(13)
@@ -16,7 +16,7 @@ library(emmeans)
 library(report)
 
 # import data
-df <- read_excel("C:/Users/SURHUD/Desktop/Desktop/Stats/ReQuir Stats/Sagar Bhalke Analysis + Results/Data.xlsx")
+df <- read_excel("your/working/directory/data.xlsx")
 
 df %>% colnames
 
